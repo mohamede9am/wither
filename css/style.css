@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #1E202B !important;
+
+}
+.navbar {
+    padding: 40px 0 !important;
+}
+.navbar-nav a {
+    padding: 5px 25px !important;
+    border:2px solid transparent;
+    color: white;
+    transition: 0.3s ease;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.ac {
+    border-color: #009ad8 !important;
+    color: #009ad8 !important;
+    border-radius: 50px !important;
+}
+.navbar-nav a:hover {
+    border-color: #009ad8;
+    color: #009ad8;
+    border-radius: 50px;
+}
+.navbar-toggler-icon {
+    color: white !important;
+    filter:invert(100%) ;
+}
+.inputSearch {
+    padding: 20px 0;
+}
+.find-location {
+    position: relative;
+}
+.search{
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    position: relative;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.submit {
+    position: absolute;
+    right: 20px;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-top:10px ;
+    border: none;
+    outline: none;
+}
+main {
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../main.jpg);
+    background-size: cover;
+    
+}
+.sun {
+    display: inline-block !important;
+}
+.cridt {
+    background-color: #323544;
+    background-size: contain;
+    width: 97%;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+.location , .custom , span {
+    margin: 0 10px;
+}
+span {
+    margin-right: 20px;
+    color: #8E8F94 ;
+}
+span img {
+    margin-right: 15px;
+    
+}
+.forecast-header {
+    font-size:18px;
+    font-weight: 400px;
+    color: #7B8599;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center; 
+}
+.num {
+    font-size: 90px;
+    color: white;
+}
+.location {
+    color: #7B8599;
+}
+.custom {
+    margin-bottom: 10px;
+    color:#009ad8;
+}
+.forecast-content {
+    padding-bottom: 40px !important;
+}
+#degree {
+    color: white;
+}
+.col-color {
+    background-color: #262936 ;
+}
+.two-thr {
+    font-size:50px;
+}
+.two-th {
+    margin-top: 50px;
+}
+footer {
+    background-color: #262936;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.social-links img {
+width: 50px;
+}
